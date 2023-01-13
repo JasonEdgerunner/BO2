@@ -1,0 +1,105 @@
+*{
+    background: #1B1B1B;
+    color:#EFEFEF;
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 300px;
+    display:flex;
+    position: relative;
+    align-items:center;
+    margin-left: 200px; 
+    margin-bottom:10px;
+}
+
+.intro, .title{
+    top: 30px;
+    left: 80px;
+}
+
+.intro{
+    width:500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    background: #2B2B2B;
+    border: 1px solid #707070;
+    
+}
+
+.top {
+    background: #fbfbfb;
+}
+
+.top > nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    gap: 1.5px;
+}
+
+.top > nav > ul > li, nav > ul > li {
+    width: 100%;
+    height: 100%;
+}
+
+.top > nav > ul > li:hover {
+    background: #b3b3b3;
+}
+
+.top > nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    color: rgb(199, 199, 199);
+}
+
+.top > nav > ul > li > a:visited, .top > nav > ul > li > a:link {
+    color: #EFEFEF;
+    text-decoration: none;
+}
+
+.header{
+    font-size:150%;
+}
+
+a{
+    color: #EFEFEF;
+    background: #2B2B2B;
+}
+
+.kast1{
+    width: 600px;
+    height: 400px;
+    display:flex;
+    margin-left: 800px;
+    transform: translateY(-45%);
+}
+
+figure{
+    width:100%;
+    height:100%;
+}
