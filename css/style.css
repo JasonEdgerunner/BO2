@@ -3,13 +3,21 @@
     color:#EFEFEF;
     padding:0;
     margin:0;
+    box-sizing:border-box;
 }
-
 
 body{
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    font-family: arial;
+    position: relative;
+    text-align: center;
 }
 
 .title{
@@ -17,13 +25,8 @@ body{
     display:flex;
     position: relative;
     align-items:center;
-    margin-left: 200px; 
+    margin-left: 225px; 
     margin-bottom:10px;
-}
-
-.intro, .title{
-    top: 30px;
-    left: 80px;
 }
 
 .intro{
@@ -34,6 +37,8 @@ body{
     align-items: center;
     margin-left: 125px;
 }
+
+
 
 .logo{
     width: 200px;
@@ -91,11 +96,11 @@ a{
     background: #2B2B2B;
 }
 
-.kast1{
+.images{
     width: 600px;
     height: 400px;
     display:flex;
-    margin-left: 800px;
+    margin-left: 1000px;
     transform: translateY(-45%);
 }
 
