@@ -20,4 +20,6 @@
 ⢷⣶⣤⣀⠉⠉⠉⠉⠉⠄⠀⠀⠀⠀⠈⣿⣆⡀⠀⠀⠀⠀⠀⠀⢀⣠⣴⡾⠃⠀
 ⠀⠈⠉⠛⠿⣶⣦⣄⣀⠀⠀⠀⠀⠀⠀⠈⠛⠻⢿⣿⣾⣿⡿⠿⠟⠋⠁⠀
 
-First commit is backup of files
+- First commit is backup of files
+
+- Second commit is some reverts made to the styling as it broke the rest of the page. At least the top bar resizes accordingly.
